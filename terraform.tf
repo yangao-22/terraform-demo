@@ -5,8 +5,8 @@ terraform {
 provider "aws" {
   version = "~> 2.0"
   region  = "us-east-1"
-  access_key = "AKIAVKHGDTDMC5SBYXEN"
-  secret_key = "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"
+  access_key = "AKIAVKHGDTDMEYBW5TW3"
+  secret_key = "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"
 }
 
 module "lambda_archive" {
